@@ -10,3 +10,4 @@ data = data.dropna()
 data.drop(['HumidityRatio'], axis=1, inplace=True)
 
 data.to_csv("Data/Processed/Ocuppancy_processed.csv")
+print(data)
