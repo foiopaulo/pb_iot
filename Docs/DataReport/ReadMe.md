@@ -4,7 +4,7 @@ Será utlizado um conjunto de dados que é fornecido por sensores que estão den
 ## Exemplo de dados
 _Imagem de exemplo dos dados que são capturados dos sensores._
 
-![Exemplo dos dados](data_example.PNG)
+![Exemplo dos dados](data_example.png)
 
 _Tipos dos dados de cada coluna_
 

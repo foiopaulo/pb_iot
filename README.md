@@ -2,4 +2,4 @@
 
 ## Estrutura do repositório
 
-![Estrutura do repositório](project_structure.PNG)
+![Estrutura do repositório](project_structure.png)
