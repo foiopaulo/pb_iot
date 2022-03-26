@@ -46,7 +46,6 @@ def read_and_upload_to_aws():
             mqtt_connection.publish(topic=TOPIC,
                                     payload=json.dumps(message),
                                     qos=mqtt.QoS.AT_LEAST_ONCE)
-            t.sleep(.01)
         disconnect_future = mqtt_connection.disconnect()
         disconnect_future.result()
 
