@@ -1,6 +1,3 @@
-Data/Processed/*
-
-/Code/Operationalization/certificates
-
-Data/Modeling/*
-!*.md
+Data/Processed/*.csv
+Data/Modeling/*.csv
+Code/Operationalization/certificates
