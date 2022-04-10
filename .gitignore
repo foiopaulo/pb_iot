@@ -1,1 +1,6 @@
-/Data/Processed
+Data/Processed/*
+
+/Code/Operationalization/certificates
+
+Data/Modeling/*
+!*.md

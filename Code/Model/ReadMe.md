@@ -1,0 +1,1 @@
+# Para rodar o arquivo facebook_prophet.ipynb, é necessário fazer os procedimentos contidos do arquivo ReadMe.md na pasta 'Data/Modeling'.

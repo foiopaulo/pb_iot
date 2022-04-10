@@ -1,0 +1,2 @@
+# Esta página contém código para o upload dos dados para AWS IoT e o código que cria um Device Shadow
+Código para o upload dos dados para AWS IoT (upload_aws.py) juntamente com o código que cria um Device Shadow e atualiza suas propriedades (device_shadow.py).

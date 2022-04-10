@@ -9,7 +9,6 @@ CLIENT_ID = "pbiot"
 PATH_TO_CERTIFICATE = "./Code/Operationalization/certificates/pbiot.cert.pem"
 PATH_TO_PRIVATE_KEY = "./Code/Operationalization/certificates/pbiot.private.key"
 PATH_TO_AMAZON_ROOT_CA_1 = "./Code/Operationalization/certificates/root-CA.crt"
-
 TOPIC = "pbiot/occupancy"
 
 
@@ -33,7 +32,7 @@ def connect_aws_iot_core():
 
 
 def read_and_upload_to_aws():
-    with open("./Data/Processed/ocuppancy_processed.csv", "r") as my_file:
+    with open("./Data/Processed/occupancy_processed.csv", "r") as my_file:
         mqtt_connection = connect_aws_iot_core()
         file_reader = reader(my_file)
         for i in file_reader:
@@ -41,12 +40,15 @@ def read_and_upload_to_aws():
                        "temperature": i[2],
                        "humidity": i[3],
                        "light": i[4],
-                       "co2": i[5]}
+                       "co2": i[5],
+                       "occupancy": i[6]}
             print("Sending data: {}".format(message))
             mqtt_connection.publish(topic=TOPIC,
                                     payload=json.dumps(message),
                                     qos=mqtt.QoS.AT_LEAST_ONCE)
+            t.sleep(.1)
         disconnect_future = mqtt_connection.disconnect()
         disconnect_future.result()
+
 
 read_and_upload_to_aws()

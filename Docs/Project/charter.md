@@ -1,13 +1,23 @@
 # Projeto de Bloco em IoT e Data Science
 
 ## Descrição rápida
-* Projeto feito para a disciplina de IoT (Internet of Things) e Data Science com o objetivo de reduzir o custo de energia de uma empresa utilizando modelos inteligentes para prever se uma pessoa está ou não dentro da sala fazendo o controle dos ares-condicionados e das luzes dentro da sala.
+* Projeto feito para a disciplina de IoT (Internet of Things) e Data Science com o objetivo de reduzir o custo de energia de uma empresa utilizando modelos inteligentes para prever se uma pessoa está ou não dentro de um ambiente para que seja feito o controle de temperatura e luminosidade.
 
 ## Escopo
-* Criação de atuadores para o controle de ares-condicionados e luzes dentro de uma sala.
+* Criação de atuadores para o controle de temperatura e luminosidade dentro de um ambiente.
+
+## Pessoasl envolvidas
+* Aluno - Paulo Silva de Oliveira
+* Professor - Fernando Guimarães
 
 ## Arquitetura
 * Serão utilizados os dados brutos dos sensores.
 * Python para a visualização dos dados e criação do modelo de predição.
 * AWS para as diretivas dos atuadores
  
+## Atualizações do projeto
+* Após a criação do repositório, foi feito uma descrição rápida sobre o que será usado e as pessoas envolvidas no projeto.
+* Criado um arquivo para fazer o pré-processamento dos dados, alterando nome de colunas, excluindo colunas que não serão usadas e linhas com valores inválidos.
+* Criado um script para o upload dos dados para o ambiente AWS e atualização da documentação.
+* Criado um modelo de predição utilizando o Facebook Prophet e atualização da documentação.
+* Criado um arquivo para criação e atualização de Device Shadow e atualização da documentação.
