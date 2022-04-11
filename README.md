@@ -20,5 +20,5 @@ A estrutura do projeto é baseada no template da Azure TDSP (Processo de Ciênci
 
 ## Criando um Device Shadow
 * Necessário ter o [python](https://www.python.org/downloads/) instalado juntamente com o [Jupyter Notebook](https://docs.jupyter.org/en/latest/install.html) para facilitar a visualização dos dados e gráficos.
-* É necessário fazer os procedimentos contidos no arquivo ReadMe.md na pasta `Data/Modeling`.
+* É necessário fazer os procedimentos contidos no arquivo `ReadMe.md` na pasta `Data/Modeling`.
 * Após colocar os dados que será utilizado para o modelo na pasta `Data/Modeling`, basta rodar o script `device_shadow.py` localizado em `Code/Operationalization/`.
