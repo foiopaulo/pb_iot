@@ -3,7 +3,7 @@
 ## Exemplo de dados
 _Imagem de exemplo dos dados que são capturados._
 
-![Exemplo dos dados](../../Docs/Data_Dictionaries/data_example.png)
+![Exemplo dos dados](../../Docs/Data_Report/data_example.png)
 
 _Tipos dos dados de cada coluna_
 
