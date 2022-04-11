@@ -13,13 +13,6 @@
 ## Plano
 * Fazer a predição se há ou não alguém dentro da sala.
 
-## Atualizações do projeto
-* Após a criação do repositório, foi feito uma descrição rápida sobre o que será usado e as pessoas envolvidas no projeto.
-* Criado um arquivo para fazer o pré-processamento dos dados, alterando nome de colunas, excluindo colunas que não serão usadas e linhas com valores inválidos.
-* Criado um script para o upload dos dados para o ambiente AWS e atualização da documentação.
-* Criado um modelo de predição utilizando o Facebook Prophet e atualização da documentação.
-* Criado um arquivo para criação e atualização de Device Shadow e atualização da documentação.
-
 ## Arquitetura
 * Serão utilizados os dados no formato CSV.
 * Python para criação de scripts.
@@ -33,3 +26,11 @@
 
 ## Diagrama mostrando a comunicação que é feita quando é executado o arquivo `device_shadow.py`.
 ![Upload to AWS IoT (Device Shadow)](occupancy_shadow.png)
+
+
+## Atualizações do projeto
+* Após a criação do repositório, foi feito uma descrição rápida sobre o que será usado e as pessoas envolvidas no projeto.
+* Criado um arquivo para fazer o pré-processamento dos dados, alterando nome de colunas, excluindo colunas que não serão usadas e linhas com valores inválidos.
+* Criado um script para o upload dos dados para o ambiente AWS e atualização da documentação.
+* Criado um modelo de predição utilizando o Facebook Prophet e atualização da documentação.
+* Criado um arquivo para criação e atualização de Device Shadow e atualização da documentação.
