@@ -41,12 +41,13 @@ def read_and_upload_to_aws():
                        "humidity": i[3],
                        "light": i[4],
                        "co2": i[5],
-                       "occupancy": i[6]}
+                       "humidity_ratio": i[6],
+                       "occupancy": i[7]}
             print("Sending data: {}".format(message))
             mqtt_connection.publish(topic=TOPIC,
                                     payload=json.dumps(message),
                                     qos=mqtt.QoS.AT_LEAST_ONCE)
-            t.sleep(.1)
+            t.sleep(.2)
         disconnect_future = mqtt_connection.disconnect()
         disconnect_future.result()
 
