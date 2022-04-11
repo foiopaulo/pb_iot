@@ -1,4 +1,4 @@
-# Os dados processados são gerados automaticamente após a execução do script de preparação dos dados que se encontra em: _Code/DataPrep/data_prep.ipynb_.
+# Dataset da forma original que foi coletado do sensor.
 
 ## Exemplo de dados
 _Imagem de exemplo dos dados que são capturados._
