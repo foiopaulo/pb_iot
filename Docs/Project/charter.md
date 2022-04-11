@@ -1,7 +1,7 @@
 # Projeto de Bloco em IoT e Data Science
 
 ## Descrição rápida
-* Projeto feito para a disciplina de IoT (Internet of Things) e Data Science com o objetivo de reduzir o custo de energia de uma empresa utilizando modelos inteligentes para prever se uma pessoa está ou não dentro de um ambiente para que seja feito o controle de temperatura e luminosidade.
+* Projeto feito para a disciplina de IoT (Internet of Things) e Data Science com o objetivo de reduzir o custo de energia de uma empresa utilizando modelos inteligentes para prever se uma pessoa está ou não dentro da sala.
 
 ## Escopo
 * Criação de atuadores para a predição se há ou não alguém dentro da sala.
